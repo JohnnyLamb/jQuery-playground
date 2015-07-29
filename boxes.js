@@ -34,12 +34,6 @@ $(function() {
 
     $('#container').on("click",function(e){
 
-
-          // var container =
-
-          // var boxes = $(this).css('background-color','white');
-
-          // $('#container').css('background-color','green');
           if ($(e.target).hasClass('box') === true)
           {
             $(e.target).css('background','white');
